@@ -13,7 +13,12 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('departments');
+});
+
+Route::get('/courses/{id}', function($id)
+{
+	return View::make('courses');
 });
 
 Route::resource('/api/departments', 'DepartmentApiController');

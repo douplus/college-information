@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
     <title>Skill-資訊</title>
-    <link type="text/css" rel="stylesheet" href="edit.css">
+    <link type="text/css" rel="stylesheet" href="{{ URL::asset('css/edit.css') }}">
 </head>
 
 <body>
@@ -234,7 +234,7 @@
     <textarea class="edit-area">內容呀內容</textarea>
   </article>
 
-  
+
 </div>
   <footer>
   </footer>

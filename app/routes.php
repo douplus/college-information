@@ -16,4 +16,4 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::controller('/api/departments', 'DepartmentApiController');
+Route::resource('/api/departments', 'DepartmentApiController');

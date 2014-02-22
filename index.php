@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
     <title>Skill-資訊</title>
-    <link type="text/css" rel="stylesheet" href="../css/edit.css">
+    <link type="text/css" rel="stylesheet" href="edit.css">
 </head>
 
 <body>

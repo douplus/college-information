@@ -1,7 +1,7 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "大學資訊網 College Information",
+	"description": "提供台灣各大專院校必修課程資訊，供高中生選擇科系時對各系所有更明確的了解",
+	"keywords": ["college", "departments", "大學", "系所"],
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.1.*"

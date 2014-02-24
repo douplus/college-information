@@ -42,19 +42,18 @@
       </tbody>
     </table>
   </div>
-
 </body>
 
 <script>
   function DepartmentController ($scope, $http, $timeout) {
     $timeout(function () {
-      $http.get('/api/departments').success(function (data) {
+      $http.get('<?= URL::action('DepartmentApiController@index'); ?>').success(function (data) {
         $scope.departments = data;
       });
     }, 500);
 
     $scope.show = function (d) {
-      location.pathname = './courses/' + d.id;
+      location.href = '<?=url('/');?>/courses/' + d.id;
     }
   }
 </script>

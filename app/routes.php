@@ -16,9 +16,9 @@ Route::get('/', function()
 	return View::make('departments');
 });
 
-Route::get('/courses/{id}', function($id)
+Route::get('/courses/{id}', array('as'=>'courses', function($id)
 {
 	return View::make('courses');
-});
+}));
 
 Route::resource('/api/departments', 'DepartmentApiController');

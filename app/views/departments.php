@@ -53,7 +53,7 @@
     }, 500);
 
     $scope.show = function (d) {
-      location.href = '<?=url('/');?>/courses/' + d.id;
+      location.pathname = '<?= URL::route('courses', array('id'=>null), false) ?>/' + d.id;
     }
   }
 </script>
